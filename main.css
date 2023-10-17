@@ -1,0 +1,144 @@
+/* Body styles for background color and general font */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1, .header h6 {
+    margin: 0;
+}
+
+/* News section styles */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+/* Main section styles */
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Landing section styles */
+#landing {
+    background: #fff;
+    display: flex;
+    height: 100%;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+#landing-text h2 {
+    color: #888;
+}
+
+#landing-image {
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+/* Button styles */
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+    background: #f4f4f4;
+}
+
+/* Header section styles */
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#header h2 {
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+/* Caption styles */
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: red;
+}
+
+/* Article styles */
+.article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+}
+
+/* Big article styles */
+.article.big {
+    width: 100%;
+}
+
+/* Article content styles */
+.articlecontent {
+    margin-top: 20px;
+}
+
+/* Article content image styles */
+.articlecontent img {
+    max-width: 60%;
+    height: auto;
+}
+
+/* News section styles 
